@@ -62,9 +62,23 @@ p {
 }
 
 #section-about, #section-discography, #section-equipment {
-
+	width: calc(100% - 90px);
+	height: auto;
+	padding: 25px;
+	margin: 0 auto 0 auto;
+	overflow: auto;
+	color: white;
+	border: 2px double #E93A22;
+	margin-top: 40px;
 }
 
 #text-intro {
-	
+	width: calc(100% - 90px);
+	height: auto;
+	padding: 20px;
+	margin: 0 auto 0 auto;
+	background-color: rgb(51, 51, 51);
+	overflow: auto;
+	color: #E93A22;
+	border: 2px solid #E93A22;
 }
